@@ -1,1 +1,81 @@
 /* MY FIRST CSS FILE */
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    background: linear-gradient(135deg, #ffffcc, #ffcc99);
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s ease;
+}
+
+body:hover {
+    background: linear-gradient(135deg, #ffcc99, #ffffcc);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #1e3d58;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #85c1ae;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.05);
+    background-color: #7ab4a6;
+}
+
+img {
+    border: 8px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #2c6e49;
+    border-left: 5px solid #2c6e49;
+    padding-left: 20px;
+    margin: 20px 0;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+blockquote:hover {
+    background-color: #dfe7e1;
+}
+
+.bigbold {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #e74c3c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.bigbold:hover {
+    color: #c0392b;
+}
